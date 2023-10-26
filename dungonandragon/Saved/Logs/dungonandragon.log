@@ -2376,3 +2376,40 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.RectLight /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RectLight_UAID_D85ED35F0F6851B601_1657969609
 [2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ActorFolder_UID_D383604B-475E51E0-FEF98583-AF778C9D
 [2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ActorFolder_UID_0E6E4D54-4E1D6EC1-125C6884-D799B962
+[2023.10.26-00.51.17:029][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.10.26-00.51.17:030][ 95]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.006
+[2023.10.26-00.51.17:031][ 95]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelPrototyping/Meshes/SM_Cube] ([1] browsable assets)...
+[2023.10.26-00.51.17:031][ 95]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Meshes/SM_Cube]
+[2023.10.26-00.51.17:037][ 95]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LevelPrototyping/Meshes/SM_Cube_Auto2
+[2023.10.26-00.51.17:037][ 95]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/SM_Cube_Auto22180490A47B3AB4CD3E37F981DDB63AD.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/Autosaves/Game/LevelPrototyping/Meshes/SM_Cube_Auto2.uasset'
+[2023.10.26-00.51.17:038][ 95]LogFileHelpers: Auto-saving content packages took 0.008
+[2023.10.26-00.52.31:080][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.10.26-00.52.31:082][450]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.26-00.52.31:121][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelPrototyping/Meshes/SM_Cube" FILE="../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/LevelPrototyping/Meshes/SM_Cube.uasset" SILENT=true
+[2023.10.26-00.52.31:128][450]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Meshes/SM_Cube
+[2023.10.26-00.52.31:129][450]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/SM_CubeB39A62714EB7F1BAF82BAEB51A782109.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/LevelPrototyping/Meshes/SM_Cube.uasset'
+[2023.10.26-00.52.31:136][450]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 354 ms)
+[2023.10.26-00.52.31:139][450]AssetCheck: New page: Asset Save: SM_Cube
+[2023.10.26-00.52.31:139][450]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube
+[2023.10.26-00.52.33:269][701]LogViewport: Scene viewport resized to 3056x1534, mode Windowed.
+[2023.10.26-00.52.33:293][703]LogViewport: Scene viewport resized to 3056x1527, mode Windowed.
+[2023.10.26-00.52.33:317][705]LogViewport: Scene viewport resized to 3056x1512, mode Windowed.
+[2023.10.26-00.52.33:342][707]LogViewport: Scene viewport resized to 3056x1474, mode Windowed.
+[2023.10.26-00.52.33:368][709]LogViewport: Scene viewport resized to 3056x1432, mode Windowed.
+[2023.10.26-00.52.33:394][711]LogViewport: Scene viewport resized to 3056x1396, mode Windowed.
+[2023.10.26-00.52.33:432][713]LogViewport: Scene viewport resized to 3056x1339, mode Windowed.
+[2023.10.26-00.52.33:456][715]LogViewport: Scene viewport resized to 3056x1301, mode Windowed.
+[2023.10.26-00.52.33:482][717]LogViewport: Scene viewport resized to 3056x1259, mode Windowed.
+[2023.10.26-00.52.33:507][719]LogViewport: Scene viewport resized to 3056x1227, mode Windowed.
+[2023.10.26-00.52.33:532][721]LogViewport: Scene viewport resized to 3056x1208, mode Windowed.
+[2023.10.26-00.52.33:560][723]LogViewport: Scene viewport resized to 3056x1203, mode Windowed.
+[2023.10.26-00.52.39:349][994]LogDerivedDataCache: C:/Users/1030655/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.170 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1588 files in 2529 folders with total size 111 MiB.
+[2023.10.26-00.52.45:940][265]LogViewport: Scene viewport resized to 3056x1215, mode Windowed.
+[2023.10.26-00.52.45:963][267]LogViewport: Scene viewport resized to 3056x1238, mode Windowed.
+[2023.10.26-00.52.45:988][269]LogViewport: Scene viewport resized to 3056x1270, mode Windowed.
+[2023.10.26-00.52.46:014][271]LogViewport: Scene viewport resized to 3056x1302, mode Windowed.
+[2023.10.26-00.52.46:039][273]LogViewport: Scene viewport resized to 3056x1339, mode Windowed.
+[2023.10.26-00.52.46:066][275]LogViewport: Scene viewport resized to 3056x1355, mode Windowed.
+[2023.10.26-00.52.46:184][288]LogViewport: Scene viewport resized to 3056x1373, mode Windowed.
+[2023.10.26-00.52.46:207][290]LogViewport: Scene viewport resized to 3056x1388, mode Windowed.
+[2023.10.26-00.52.46:233][292]LogViewport: Scene viewport resized to 3056x1397, mode Windowed.
