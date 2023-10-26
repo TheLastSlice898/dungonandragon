@@ -1835,3 +1835,544 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.25-22.51.04:908][376]PIE: Server logged in
 [2023.10.25-22.51.04:908][376]PIE: Play in editor total start time 0.066 seconds.
 [2023.10.25-22.52.39:292][682]LogDerivedDataCache: C:/Users/1030655/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.185 and deleted 0 files with total size 0 MiB and 47 empty folders. Scanned 1584 files in 2568 folders with total size 111 MiB.
+[2023.10.25-23.38.30:346][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.25-23.38.30:346][641]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.25-23.38.30:347][641]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.25-23.38.30:347][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.25-23.38.30:347][641]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.10.25-23.38.30:350][641]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.25-23.38.30:352][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.25-23.38.30:358][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.25-23.38.30:358][641]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.10.25-23.38.30:358][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.10.25-23.38.30:360][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.10.25-23.38.30:367][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.10.25-23.38.30:398][642]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.10.25-23.38.33:657][998]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.25-23.39.17:722][459]Cmd: DELETE
+[2023.10.25-23.39.17:722][459]Cmd: ACTOR DELETE
+[2023.10.25-23.39.17:730][459]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.39.17:737][459]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.10.25-23.39.17:738][459]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.10.25-23.39.18:183][490]Cmd: DELETE
+[2023.10.25-23.39.18:183][490]Cmd: ACTOR DELETE
+[2023.10.25-23.39.18:184][490]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.39.18:190][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.10.25-23.39.18:192][490]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2023.10.25-23.39.19:513][624]Cmd: DELETE
+[2023.10.25-23.39.19:513][624]Cmd: ACTOR DELETE
+[2023.10.25-23.39.19:515][624]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.39.19:521][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.10.25-23.39.19:522][624]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2023.10.25-23.39.20:154][687]Cmd: DELETE
+[2023.10.25-23.39.20:155][687]Cmd: ACTOR DELETE
+[2023.10.25-23.39.20:156][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.39.20:162][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.10.25-23.39.20:163][687]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.39.20:596][725]Cmd: DELETE
+[2023.10.25-23.39.20:596][725]Cmd: ACTOR DELETE
+[2023.10.25-23.39.20:597][725]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.39.20:603][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.10.25-23.39.20:604][725]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2023.10.25-23.39.21:133][779]Cmd: DELETE
+[2023.10.25-23.39.21:133][779]Cmd: ACTOR DELETE
+[2023.10.25-23.39.21:134][779]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.39.21:140][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.10.25-23.39.21:141][779]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.39.43:973][309]Cmd: TRANSACTION UNDO
+[2023.10.25-23.39.43:973][309]LogEditorTransaction: Undo Move Elements
+[2023.10.25-23.39.44:298][315]Cmd: TRANSACTION UNDO
+[2023.10.25-23.39.44:298][315]LogEditorTransaction: Undo Move Elements
+[2023.10.25-23.40.14:316][650]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.25-23.40.57:931][906]Cmd: TRANSACTION UNDO
+[2023.10.25-23.40.57:932][906]LogEditorTransaction: Undo Move Elements
+[2023.10.25-23.41.10:054][117]Cmd: DELETE
+[2023.10.25-23.41.10:055][117]Cmd: ACTOR DELETE
+[2023.10.25-23.41.10:056][117]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.10:063][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.10.25-23.41.10:064][117]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.41.10:476][147]Cmd: DELETE
+[2023.10.25-23.41.10:476][147]Cmd: ACTOR DELETE
+[2023.10.25-23.41.10:477][147]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.10:483][147]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.10.25-23.41.10:485][147]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.41.10:765][166]Cmd: DELETE
+[2023.10.25-23.41.10:765][166]Cmd: ACTOR DELETE
+[2023.10.25-23.41.10:766][166]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.10:773][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.10.25-23.41.10:775][166]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.10.25-23.41.11:439][234]Cmd: DELETE
+[2023.10.25-23.41.11:439][234]Cmd: ACTOR DELETE
+[2023.10.25-23.41.11:441][234]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.11:447][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.10.25-23.41.11:449][234]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.41.11:824][267]Cmd: DELETE
+[2023.10.25-23.41.11:824][267]Cmd: ACTOR DELETE
+[2023.10.25-23.41.11:825][267]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.11:832][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.10.25-23.41.11:834][267]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.10.25-23.41.12:253][305]Cmd: DELETE
+[2023.10.25-23.41.12:254][305]Cmd: ACTOR DELETE
+[2023.10.25-23.41.12:255][305]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.12:261][305]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.10.25-23.41.12:263][305]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.41.12:849][363]Cmd: DELETE
+[2023.10.25-23.41.12:849][363]Cmd: ACTOR DELETE
+[2023.10.25-23.41.12:850][363]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.12:856][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.10.25-23.41.12:858][363]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.41.13:229][395]Cmd: DELETE
+[2023.10.25-23.41.13:229][395]Cmd: ACTOR DELETE
+[2023.10.25-23.41.13:230][395]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.13:236][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.10.25-23.41.13:238][395]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.10.25-23.41.13:806][454]Cmd: DELETE
+[2023.10.25-23.41.13:806][454]Cmd: ACTOR DELETE
+[2023.10.25-23.41.13:807][454]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.13:814][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.10.25-23.41.13:816][454]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.10.25-23.41.14:342][507]Cmd: DELETE
+[2023.10.25-23.41.14:342][507]Cmd: ACTOR DELETE
+[2023.10.25-23.41.14:344][507]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.14:350][507]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.10.25-23.41.14:352][507]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.10.25-23.41.14:711][538]Cmd: DELETE
+[2023.10.25-23.41.14:711][538]Cmd: ACTOR DELETE
+[2023.10.25-23.41.14:712][538]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.14:719][538]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.10.25-23.41.14:721][538]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.10.25-23.41.15:392][607]Cmd: DELETE
+[2023.10.25-23.41.15:392][607]Cmd: ACTOR DELETE
+[2023.10.25-23.41.15:393][607]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.15:399][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.10.25-23.41.15:401][607]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.41.17:098][790]Cmd: DELETE
+[2023.10.25-23.41.17:098][790]Cmd: ACTOR DELETE
+[2023.10.25-23.41.17:099][790]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.17:105][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.10.25-23.41.17:106][790]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2023.10.25-23.41.17:709][850]Cmd: DELETE
+[2023.10.25-23.41.17:709][850]Cmd: ACTOR DELETE
+[2023.10.25-23.41.17:711][850]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.17:717][850]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.10.25-23.41.17:719][850]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.41.18:053][879]Cmd: DELETE
+[2023.10.25-23.41.18:053][879]Cmd: ACTOR DELETE
+[2023.10.25-23.41.18:054][879]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.18:060][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.10.25-23.41.18:062][879]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.41.18:848][964]Cmd: DELETE
+[2023.10.25-23.41.18:849][964]Cmd: ACTOR DELETE
+[2023.10.25-23.41.18:850][964]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.18:856][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.10.25-23.41.18:858][964]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.41.19:969][ 84]Cmd: DELETE
+[2023.10.25-23.41.19:969][ 84]Cmd: ACTOR DELETE
+[2023.10.25-23.41.19:970][ 84]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.19:976][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.10.25-23.41.19:977][ 84]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.41.20:670][155]Cmd: DELETE
+[2023.10.25-23.41.20:670][155]Cmd: ACTOR DELETE
+[2023.10.25-23.41.20:671][155]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.20:677][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.10.25-23.41.20:679][155]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.41.21:204][206]Cmd: DELETE
+[2023.10.25-23.41.21:204][206]Cmd: ACTOR DELETE
+[2023.10.25-23.41.21:206][206]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.21:211][206]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.10.25-23.41.21:213][206]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.41.21:678][253]Cmd: DELETE
+[2023.10.25-23.41.21:678][253]Cmd: ACTOR DELETE
+[2023.10.25-23.41.21:679][253]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.21:685][253]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.10.25-23.41.21:687][253]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.41.22:168][302]Cmd: DELETE
+[2023.10.25-23.41.22:168][302]Cmd: ACTOR DELETE
+[2023.10.25-23.41.22:169][302]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.22:176][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.10.25-23.41.22:178][302]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.10.25-23.41.22:805][365]Cmd: DELETE
+[2023.10.25-23.41.22:805][365]Cmd: ACTOR DELETE
+[2023.10.25-23.41.22:807][365]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.25-23.41.22:812][365]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.10.25-23.41.22:814][365]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.41.23:783][460]Cmd: DELETE
+[2023.10.25-23.41.23:783][460]Cmd: ACTOR DELETE
+[2023.10.25-23.41.23:784][460]LogEditorActor: Deleted Actor: TextRenderActor
+[2023.10.25-23.41.23:790][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.10.25-23.41.23:791][460]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.25-23.41.29:022][ 24]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.10.25-23.41.46:202][878]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.25-23.41.46:209][878]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.25-23.41.46:210][878]LogWorldPartition: Display: GenerateStreaming started...
+[2023.10.25-23.41.46:210][878]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.10.25-23.41.46:210][878]LogWorldPartition: Display: GetPartitionedActors took 5 us (total: 14 us)
+[2023.10.25-23.41.46:210][878]LogWorldPartition: Display: GenerateStreaming took 48 us (total: 162 us)
+[2023.10.25-23.41.46:210][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.25-23.41.46:210][878]PIE: New page: PIE session: ThirdPersonMap (26 Oct 2023, 9:41:46 pm)
+[2023.10.25-23.41.46:243][878]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.25-23.41.46:245][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002004s)
+[2023.10.25-23.41.46:245][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002032s)
+[2023.10.25-23.41.46:245][878]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.25-23.41.46:245][878]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.25-23.41.46:246][878]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.10.25-23.41.46:246][878]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.25-23.41.46:246][878]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.25-23.41.46:246][878]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.10.25-23.41.46:246][878]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.10.25-23.41.46:246][878]LogWorldPartition: Display: WorldPartition initialize took 420 us (total: 52 ms)
+[2023.10.25-23.41.46:246][878]LogPlayLevel: PIE: World Init took: (0.001345s)
+[2023.10.25-23.41.46:252][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.10.25-23.41.46:253][878]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.10.25-23.41.46:253][878]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.25-23.41.46:253][878]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.25-23.41.46:253][878]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.25-23.41.46:253][878]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.25-23.41.46:253][878]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.25-23.41.46:253][878]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.25-23.41.46:253][878]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.25-23.41.46:253][878]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.25-23.41.46:253][878]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.25-23.41.46:253][878]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.25-23.41.46:253][878]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.25-23.41.46:255][878]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.25-23.41.46:280][878]LogAudioMixer: Display: Using Audio Hardware Device LG HDR 4K (NVIDIA High Definition Audio)
+[2023.10.25-23.41.46:281][878]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.25-23.41.46:281][878]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.25-23.41.46:281][878]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.25-23.41.46:281][878]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.10.25-23.41.46:281][878]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.10.25-23.41.46:282][878]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.10.25-23.41.46:282][878]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.10.25-23.41.46:282][878]LogInit: FAudioDevice initialized with ID 3.
+[2023.10.25-23.41.46:282][878]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2023.10.25-23.41.46:282][878]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.10.25-23.41.46:285][878]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.10.25-23.41.46:286][878]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.10.26-10.41.46
+[2023.10.25-23.41.46:286][878]LogWorld: Bringing up level for play took: 0.000557
+[2023.10.25-23.41.46:287][878]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2023.10.25-23.41.46:291][878]PIE: Server logged in
+[2023.10.25-23.41.46:291][878]PIE: Play in editor total start time 0.082 seconds.
+[2023.10.25-23.42.01:764][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.25-23.42.01:764][721]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.25-23.42.01:764][721]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.25-23.42.01:764][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.25-23.42.01:764][721]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.10.25-23.42.01:766][721]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.25-23.42.01:768][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.25-23.42.01:774][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.25-23.42.01:774][721]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.10.25-23.42.01:774][721]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.10.25-23.42.01:775][721]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.10.25-23.42.01:780][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.10.25-23.42.01:844][722]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.10.25-23.42.03:743][935]Cmd: TRANSACTION UNDO
+[2023.10.25-23.42.03:743][935]LogEditorTransaction: Undo Set Scale
+[2023.10.25-23.42.04:048][940]Cmd: TRANSACTION UNDO
+[2023.10.25-23.42.04:048][940]LogEditorTransaction: Undo Set Scale
+[2023.10.25-23.42.04:297][944]Cmd: TRANSACTION UNDO
+[2023.10.25-23.42.04:297][944]LogEditorTransaction: Undo Move Elements
+[2023.10.25-23.42.04:624][974]Cmd: TRANSACTION UNDO
+[2023.10.25-23.42.04:624][974]LogEditorTransaction: Undo Move Elements
+[2023.10.25-23.42.04:946][ 10]Cmd: TRANSACTION UNDO
+[2023.10.25-23.42.04:946][ 10]LogEditorTransaction: Undo Move Elements
+[2023.10.25-23.42.05:235][ 42]Cmd: TRANSACTION UNDO
+[2023.10.25-23.42.05:235][ 42]LogEditorTransaction: Undo Move Elements
+[2023.10.25-23.42.10:388][616]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.10.25-23.42.19:810][666]LogViewport: Scene viewport resized to 2210x1230, mode Windowed.
+[2023.10.25-23.44.01:227][965]Cmd: TRANSACTION UNDO
+[2023.10.25-23.44.01:227][965]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.48.40:761][ 48]Cmd: TRANSACTION UNDO
+[2023.10.25-23.48.40:761][ 48]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.49.04:025][614]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.04:025][614]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.49.04:498][622]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.04:498][622]LogEditorTransaction: Undo Cube Grid Selection Change
+[2023.10.25-23.49.10:016][235]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.10:016][235]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.49.10:332][241]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.10:332][241]LogEditorTransaction: Undo Cube Grid Selection Change
+[2023.10.25-23.49.10:464][243]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.10:464][243]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.49.10:590][246]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.10:590][246]LogEditorTransaction: Undo Cube Grid Selection Change
+[2023.10.25-23.49.10:734][260]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.10:734][260]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.49.10:891][275]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.10:891][275]LogEditorTransaction: Undo Cube Grid Selection Change
+[2023.10.25-23.49.11:056][292]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.11:056][292]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.49.11:208][309]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.11:208][309]LogEditorTransaction: Undo Cube Grid Selection Change
+[2023.10.25-23.49.11:375][328]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.11:375][328]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.49.11:535][346]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.11:535][346]LogEditorTransaction: Undo Cube Grid Selection Change
+[2023.10.25-23.49.11:685][363]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.11:685][363]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.49.11:852][382]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.11:852][382]LogEditorTransaction: Undo Cube Grid Selection Change
+[2023.10.25-23.49.12:133][411]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.12:133][411]LogEditorTransaction: Undo Cube Grid Selection Change
+[2023.10.25-23.49.12:347][433]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.12:347][433]LogEditorTransaction: Undo Cube Grid Selection Change
+[2023.10.25-23.49.12:536][454]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.12:536][454]LogEditorTransaction: Undo Cube Grid Selection Change
+[2023.10.25-23.49.12:709][472]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.12:709][472]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.49.12:885][492]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.12:885][492]LogEditorTransaction: Undo Cube Grid Selection Change
+[2023.10.25-23.49.13:060][512]Cmd: TRANSACTION UNDO
+[2023.10.25-23.49.13:061][512]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.50.03:994][ 98]Cmd: TRANSACTION UNDO
+[2023.10.25-23.50.03:994][ 98]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.50.04:280][103]Cmd: TRANSACTION UNDO
+[2023.10.25-23.50.04:280][103]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.50.04:547][107]Cmd: TRANSACTION UNDO
+[2023.10.25-23.50.04:547][107]LogEditorTransaction: Undo Cube Grid Selection Change
+[2023.10.25-23.50.04:638][113]Cmd: TRANSACTION UNDO
+[2023.10.25-23.50.04:638][113]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.50.04:823][132]Cmd: TRANSACTION UNDO
+[2023.10.25-23.50.04:823][132]LogEditorTransaction: Undo Cube Grid Selection Change
+[2023.10.25-23.50.14:152][175]Cmd: TRANSACTION UNDO
+[2023.10.25-23.50.14:152][175]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.52.39:314][  2]LogDerivedDataCache: C:/Users/1030655/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.175 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1584 files in 2521 folders with total size 111 MiB.
+[2023.10.25-23.53.10:226][165]Cmd: TRANSACTION UNDO
+[2023.10.25-23.53.10:226][165]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.53.10:578][172]Cmd: TRANSACTION UNDO
+[2023.10.25-23.53.10:578][172]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.53.10:794][178]Cmd: TRANSACTION UNDO
+[2023.10.25-23.53.10:794][178]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.53.12:381][362]Cmd: TRANSACTION UNDO
+[2023.10.25-23.53.12:381][362]LogEditorTransaction: Undo Cube Grid Selection Change
+[2023.10.25-23.53.12:709][397]Cmd: TRANSACTION UNDO
+[2023.10.25-23.53.12:709][397]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.54.13:847][935]Cmd: TRANSACTION UNDO
+[2023.10.25-23.54.13:847][935]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.57.02:837][627]LogViewport: Scene viewport resized to 2210x1245, mode Windowed.
+[2023.10.25-23.57.02:862][629]LogViewport: Scene viewport resized to 2210x1265, mode Windowed.
+[2023.10.25-23.57.02:899][631]LogViewport: Scene viewport resized to 2210x1277, mode Windowed.
+[2023.10.25-23.57.02:934][633]LogViewport: Scene viewport resized to 2210x1288, mode Windowed.
+[2023.10.25-23.57.02:973][635]LogViewport: Scene viewport resized to 2210x1309, mode Windowed.
+[2023.10.25-23.57.03:008][637]LogViewport: Scene viewport resized to 2210x1322, mode Windowed.
+[2023.10.25-23.57.03:044][639]LogViewport: Scene viewport resized to 2210x1332, mode Windowed.
+[2023.10.25-23.57.03:096][641]LogViewport: Scene viewport resized to 2210x1355, mode Windowed.
+[2023.10.25-23.57.03:132][643]LogViewport: Scene viewport resized to 2210x1368, mode Windowed.
+[2023.10.25-23.57.03:167][645]LogViewport: Scene viewport resized to 2210x1392, mode Windowed.
+[2023.10.25-23.57.03:202][647]LogViewport: Scene viewport resized to 2210x1423, mode Windowed.
+[2023.10.25-23.57.03:249][649]LogViewport: Scene viewport resized to 2210x1452, mode Windowed.
+[2023.10.25-23.57.03:303][651]LogViewport: Scene viewport resized to 2210x1470, mode Windowed.
+[2023.10.25-23.57.03:338][653]LogViewport: Scene viewport resized to 2210x1472, mode Windowed.
+[2023.10.25-23.57.03:390][657]LogViewport: Scene viewport resized to 2210x1476, mode Windowed.
+[2023.10.25-23.57.03:415][659]LogViewport: Scene viewport resized to 2210x1484, mode Windowed.
+[2023.10.25-23.57.03:444][661]LogViewport: Scene viewport resized to 2210x1491, mode Windowed.
+[2023.10.25-23.57.03:608][678]LogViewport: Scene viewport resized to 2210x1504, mode Windowed.
+[2023.10.25-23.57.03:635][680]LogViewport: Scene viewport resized to 2210x1514, mode Windowed.
+[2023.10.25-23.57.03:679][683]LogViewport: Scene viewport resized to 2210x1529, mode Windowed.
+[2023.10.25-23.57.03:759][688]LogViewport: Scene viewport resized to 2210x1532, mode Windowed.
+[2023.10.25-23.57.38:621][816]Cmd: MODE GRID=0
+[2023.10.25-23.57.39:370][902]Cmd: MODE GRID=1
+[2023.10.25-23.57.57:119][783]Cmd: TRANSACTION UNDO
+[2023.10.25-23.57.57:119][783]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.58.02:664][274]Cmd: TRANSACTION UNDO
+[2023.10.25-23.58.02:664][274]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.58.10:103][942]Cmd: TRANSACTION UNDO
+[2023.10.25-23.58.10:103][942]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.59.26:896][676]Cmd: TRANSACTION UNDO
+[2023.10.25-23.59.26:896][676]LogEditorTransaction: Undo Block Tool Change
+[2023.10.25-23.59.34:301][398]Cmd: TRANSACTION UNDO
+[2023.10.25-23.59.34:301][398]LogEditorTransaction: Undo Corner Push/Pull Amount
+[2023.10.25-23.59.52:802][313]Cmd: TRANSACTION UNDO
+[2023.10.25-23.59.52:802][313]LogEditorTransaction: Undo Corner Push/Pull Amount
+[2023.10.25-23.59.57:952][814]Cmd: TRANSACTION UNDO
+[2023.10.25-23.59.57:952][814]LogEditorTransaction: Undo Block Tool Change
+[2023.10.26-00.00.18:745][ 42]Cmd: TRANSACTION UNDO
+[2023.10.26-00.00.18:745][ 42]LogEditorTransaction: Undo Corner Push/Pull Amount
+[2023.10.26-00.00.20:637][208]Cmd: TRANSACTION UNDO
+[2023.10.26-00.00.20:637][208]LogEditorTransaction: Undo Corner Push/Pull Amount
+[2023.10.26-00.00.22:643][439]Cmd: TRANSACTION UNDO
+[2023.10.26-00.00.22:643][439]LogEditorTransaction: Undo Corner Push/Pull Amount
+[2023.10.26-00.00.22:894][444]Cmd: TRANSACTION UNDO
+[2023.10.26-00.00.22:894][444]LogEditorTransaction: Undo Corner Push/Pull Amount
+[2023.10.26-00.00.32:614][550]Cmd: TRANSACTION UNDO
+[2023.10.26-00.00.32:614][550]LogEditorTransaction: Undo Block Tool Change
+[2023.10.26-00.00.35:468][827]Cmd: TRANSACTION UNDO
+[2023.10.26-00.00.35:468][827]LogEditorTransaction: Undo Cube Grid Selection Change
+[2023.10.26-00.00.40:863][442]Cmd: TRANSACTION UNDO
+[2023.10.26-00.00.40:863][442]LogEditorTransaction: Undo Cube Grid Selection Change
+[2023.10.26-00.00.42:930][629]Cmd: TRANSACTION UNDO
+[2023.10.26-00.00.42:930][629]LogEditorTransaction: Undo Block Tool Change
+[2023.10.26-00.07.51:571][441]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.26-00.07.51:640][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.10.26-00.07.51:647][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.10.26-00.07.51:652][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.10.26-00.07.51:668][441]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER
+[2023.10.26-00.07.51:669][441]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/A7GPT109Y6ZTTJD4A7TXERF6DD75614AD28BDCAE02A6B286A92CDD.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset'
+[2023.10.26-00.07.51:672][441]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6
+[2023.10.26-00.07.51:673][441]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/NG2R9BPZVA7ZDN0Z4VSTG6770F49D7495D832B84B9B98E96A7488B.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset'
+[2023.10.26-00.07.51:676][441]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3
+[2023.10.26-00.07.51:676][441]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/SWSI13675DVYIZ0N4NF7Y382AD46A1478BC81A92FD8F8BBABB5778.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset'
+[2023.10.26-00.07.51:687][441]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 165 ms)
+[2023.10.26-00.07.51:693][441]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.26-00.07.51:693][441]LogContentValidation: Display: Validating /Script/Engine.PlayerStart /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PlayerStart_0
+[2023.10.26-00.07.51:693][441]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_1
+[2023.10.26-00.07.51:693][441]LogContentValidation: Display: Validating /Script/Engine.PostProcessVolume /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PostProcessVolume_0
+[2023.10.26-00.07.52:800][549]LogStaticMesh: Display: Building static mesh SM_Cube...
+[2023.10.26-00.07.52:805][549]LogStaticMesh: Built static mesh [0.00s] /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube
+[2023.10.26-00.07.52:841][549]LogStaticMesh: Display: Building static mesh SM_Cube...
+[2023.10.26-00.07.52:858][549]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LevelPrototyping/Meshes/SM_Cube) ...
+[2023.10.26-00.07.52:889][549]LogStaticMesh: Built static mesh [0.05s] /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube
+[2023.10.26-00.07.57:600][ 67]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.10.26-00.07.58:633][187]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.10.26-00.07.59:781][321]Cmd: TRANSACTION UNDO
+[2023.10.26-00.07.59:781][321]LogEditorTransaction: Undo Move Elements
+[2023.10.26-00.08.02:278][514]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.10.26-00.08.03:533][657]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.26-00.08.03:540][657]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.26-00.08.03:541][657]LogWorldPartition: Display: GenerateStreaming started...
+[2023.10.26-00.08.03:541][657]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.10.26-00.08.03:541][657]LogWorldPartition: Display: GetPartitionedActors took 4 us (total: 19 us)
+[2023.10.26-00.08.03:541][657]LogWorldPartition: Display: GenerateStreaming took 54 us (total: 217 us)
+[2023.10.26-00.08.03:542][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.26-00.08.03:542][657]PIE: New page: PIE session: ThirdPersonMap (26 Oct 2023, 10:08:03 pm)
+[2023.10.26-00.08.03:571][657]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.26-00.08.03:573][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002111s)
+[2023.10.26-00.08.03:573][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002146s)
+[2023.10.26-00.08.03:573][657]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.26-00.08.03:573][657]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.26-00.08.03:573][657]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.10.26-00.08.03:574][657]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.26-00.08.03:574][657]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.26-00.08.03:574][657]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.10.26-00.08.03:574][657]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.10.26-00.08.03:574][657]LogWorldPartition: Display: WorldPartition initialize took 424 us (total: 53 ms)
+[2023.10.26-00.08.03:574][657]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2023.10.26-00.08.03:580][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.10.26-00.08.03:581][657]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.10.26-00.08.03:581][657]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.26-00.08.03:581][657]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.26-00.08.03:581][657]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.26-00.08.03:581][657]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.26-00.08.03:581][657]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.26-00.08.03:581][657]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.26-00.08.03:581][657]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.26-00.08.03:581][657]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.26-00.08.03:581][657]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.26-00.08.03:581][657]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.26-00.08.03:581][657]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.26-00.08.03:583][657]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.26-00.08.03:611][657]LogAudioMixer: Display: Using Audio Hardware Device LG HDR 4K (NVIDIA High Definition Audio)
+[2023.10.26-00.08.03:611][657]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.26-00.08.03:611][657]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.26-00.08.03:611][657]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.26-00.08.03:612][657]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.10.26-00.08.03:612][657]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.10.26-00.08.03:613][657]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.10.26-00.08.03:613][657]LogInit: FAudioDevice initialized with ID 4.
+[2023.10.26-00.08.03:613][657]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.10.26-00.08.03:613][657]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2023.10.26-00.08.03:613][657]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.10.26-00.08.03:617][657]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.10.26-00.08.03:618][657]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.10.26-11.08.03
+[2023.10.26-00.08.03:618][657]LogWorld: Bringing up level for play took: 0.000604
+[2023.10.26-00.08.03:620][657]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2023.10.26-00.08.03:623][657]PIE: Server logged in
+[2023.10.26-00.08.03:625][657]PIE: Play in editor total start time 0.085 seconds.
+[2023.10.26-00.08.23:821][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.26-00.08.23:821][ 66]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.26-00.08.23:821][ 66]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.26-00.08.23:821][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.26-00.08.23:822][ 66]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.10.26-00.08.23:824][ 66]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.26-00.08.23:826][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.26-00.08.23:832][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.26-00.08.23:832][ 66]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.10.26-00.08.23:832][ 66]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.10.26-00.08.23:834][ 66]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.10.26-00.08.23:839][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.10.26-00.08.23:911][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.10.26-00.08.29:564][717]LogViewport: Scene viewport resized to 3056x1532, mode Windowed.
+[2023.10.26-00.08.33:893][206]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.10.26-00.08.33:893][206]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.10.26-00.09.06:289][866]Cmd: DELETE
+[2023.10.26-00.09.06:289][866]Cmd: ACTOR DELETE
+[2023.10.26-00.09.06:291][866]LogEditorActor: Deleted Actor: PointLight
+[2023.10.26-00.09.06:298][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.10.26-00.09.06:301][866]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.10.26-00.09.53:199][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.10.26-00.09.53:204][ 45]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6_Auto1
+[2023.10.26-00.09.53:204][ 45]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/NG2R9BPZVA7ZDN0Z4VSTG6_Auto1305964F0407DE4923775B5A6EE3A9719.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6_Auto1.uasset'
+[2023.10.26-00.09.53:206][ 45]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3_Auto1
+[2023.10.26-00.09.53:207][ 45]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/SWSI13675DVYIZ0N4NF7Y3_Auto19CAB7FFF4C5B0A930570588711368B1E.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3_Auto1.uasset'
+[2023.10.26-00.09.53:208][ 45]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.017
+[2023.10.26-00.09.53:208][ 45]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.017
+[2023.10.26-00.09.53:209][ 45]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelPrototyping/Meshes/SM_Cube] ([1] browsable assets)...
+[2023.10.26-00.09.53:295][ 45]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube]
+[2023.10.26-00.09.53:295][ 45]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Meshes/SM_Cube]
+[2023.10.26-00.09.53:305][ 45]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LevelPrototyping/Meshes/SM_Cube_Auto1
+[2023.10.26-00.09.53:305][ 45]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/SM_Cube_Auto1D2231ADD4F95D1982CF814AE87CB6C06.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/Autosaves/Game/LevelPrototyping/Meshes/SM_Cube_Auto1.uasset'
+[2023.10.26-00.09.53:306][ 45]LogFileHelpers: Auto-saving content packages took 0.097
+[2023.10.26-00.45.56:588][535]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.10.26-00.45.56:588][535]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.10.26-00.46.28:091][995]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.10.26-00.46.33:207][568]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.RectLight
+[2023.10.26-00.46.33:207][568]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.RectLight
+[2023.10.26-00.46.52:903][829]LogSlate: Window 'Color Picker' being destroyed
+[2023.10.26-00.47.10:824][866]Cmd: TRANSACTION UNDO
+[2023.10.26-00.47.10:824][866]LogEditorTransaction: Undo Set Scale
+[2023.10.26-00.47.11:389][877]Cmd: TRANSACTION UNDO
+[2023.10.26-00.47.11:389][877]LogEditorTransaction: Undo Set Scale
+[2023.10.26-00.48.00:408][612]Cmd: EDIT COPY
+[2023.10.26-00.48.00:556][622]Cmd: EDIT PASTE
+[2023.10.26-00.49.51:879][486]Cmd: EDIT COPY
+[2023.10.26-00.49.52:095][510]Cmd: EDIT PASTE
+[2023.10.26-00.49.56:536][978]Cmd: TRANSACTION UNDO
+[2023.10.26-00.49.56:536][978]LogEditorTransaction: Undo Move Elements
+[2023.10.26-00.50.49:653][647]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.26-00.50.49:719][647]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.10.26-00.50.49:728][647]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.10.26-00.50.49:733][647]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.10.26-00.50.49:737][647]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER
+[2023.10.26-00.50.49:738][647]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/A7GPT109Y6ZTTJD4A7TXERA6DF53E74B4EE5987BE38DB73C92FEFF.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset'
+[2023.10.26-00.50.49:741][647]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/EY/87SHEJN5UBEAN2K5OV1G6R
+[2023.10.26-00.50.49:741][647]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/87SHEJN5UBEAN2K5OV1G6RAB866CFD480F8798D3084FA19A6D187B.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/EY/87SHEJN5UBEAN2K5OV1G6R.uasset'
+[2023.10.26-00.50.49:744][647]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/LN/30UBDLYFFA5ZR7U4W4L4GG
+[2023.10.26-00.50.49:745][647]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/30UBDLYFFA5ZR7U4W4L4GGB9F4AA024C6CC4FBAD39948BAB98EBD2.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/LN/30UBDLYFFA5ZR7U4W4L4GG.uasset'
+[2023.10.26-00.50.49:748][647]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW
+[2023.10.26-00.50.49:748][647]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/2QISIGK5DJNQ05US8O8FXW51CD0D81440776EA8A760C9C490D03DA.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset'
+[2023.10.26-00.50.49:752][647]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/R1/TS5OQ5CRUWFZYL1ZQ7I416
+[2023.10.26-00.50.49:752][647]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/TS5OQ5CRUWFZYL1ZQ7I416058F8CFC43B7E724CD318C8342060F53.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/R1/TS5OQ5CRUWFZYL1ZQ7I416.uasset'
+[2023.10.26-00.50.49:755][647]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/J7/N10XDC9G27EMLS5AGZ6AVV
+[2023.10.26-00.50.49:756][647]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/N10XDC9G27EMLS5AGZ6AVVFE6F15B240A7ACE86A3850A2D2F298A8.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/J7/N10XDC9G27EMLS5AGZ6AVV.uasset'
+[2023.10.26-00.50.49:758][647]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6
+[2023.10.26-00.50.49:759][647]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/NG2R9BPZVA7ZDN0Z4VSTG6479644E34265B878EDC878B58640CBEA.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset'
+[2023.10.26-00.50.49:762][647]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/S1/DXUWD12MD3HRWVVXX076BY
+[2023.10.26-00.50.49:762][647]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/DXUWD12MD3HRWVVXX076BY5AC4200C421944BFD7C565B3F932DFCE.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/S1/DXUWD12MD3HRWVVXX076BY.uasset'
+[2023.10.26-00.50.49:765][647]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3
+[2023.10.26-00.50.49:766][647]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/SWSI13675DVYIZ0N4NF7Y3641506E649F58F6FAC6266B7BAFF5361.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset'
+[2023.10.26-00.50.49:769][647]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/AD/WPSQQAO28CM1TP3WIZOX12
+[2023.10.26-00.50.49:769][647]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/WPSQQAO28CM1TP3WIZOX1264CBF9DF45CE44A6942CCB9610DBC378.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/AD/WPSQQAO28CM1TP3WIZOX12.uasset'
+[2023.10.26-00.50.49:772][647]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/32/T48HJSG843Z6RHQCIUSDKQ
+[2023.10.26-00.50.49:772][647]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/T48HJSG843Z6RHQCIUSDKQ5316462C42A2541CC8A5E2B1F4A11FA7.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/32/T48HJSG843Z6RHQCIUSDKQ.uasset'
+[2023.10.26-00.50.49:774][647]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/A/VW/HO60ND2YNSILQFW4Z4QLHH
+[2023.10.26-00.50.49:774][647]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/HO60ND2YNSILQFW4Z4QLHHC14C101546DBFAA6C696D791DE5D5F9E.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/A/VW/HO60ND2YNSILQFW4Z4QLHH.uasset'
+[2023.10.26-00.50.49:777][647]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/BV/KJZKT9JTHG1IVGUVXEUHEN
+[2023.10.26-00.50.49:777][647]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/KJZKT9JTHG1IVGUVXEUHEN30A446EE4A36112BB01AE597476D035D.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/BV/KJZKT9JTHG1IVGUVXEUHEN.uasset'
+[2023.10.26-00.50.49:780][647]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/KL/8HQTQDPG4XZN2TI4MEH0IW
+[2023.10.26-00.50.49:780][647]LogSavePackage: Moving '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Saved/8HQTQDPG4XZN2TI4MEH0IWE607FAB74C4A3744C77FB0AB16D41132.tmp' to '../../../../../Users/1030655/Desktop/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/KL/8HQTQDPG4XZN2TI4MEH0IW.uasset'
+[2023.10.26-00.50.49:787][647]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 300 ms)
+[2023.10.26-00.50.49:794][647]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.RectLight /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RectLight_UAID_D85ED35F0F6851B601_1570619608
+[2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.RectLight /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RectLight_UAID_D85ED35F0F6851B601_1769507610
+[2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.PlayerStart /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PlayerStart_0
+[2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.SkyLight /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkyLight_1
+[2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_1
+[2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.ExponentialHeightFog /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ExponentialHeightFog_0
+[2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.DirectionalLight /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.DirectionalLight_0
+[2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423
+[2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.SkyAtmosphere /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkyAtmosphere_0
+[2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.VolumetricCloud /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.VolumetricCloud_0
+[2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.PostProcessVolume /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PostProcessVolume_0
+[2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.RectLight /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RectLight_UAID_D85ED35F0F6851B601_1657969609
+[2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ActorFolder_UID_D383604B-475E51E0-FEF98583-AF778C9D
+[2023.10.26-00.50.49:794][647]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ActorFolder_UID_0E6E4D54-4E1D6EC1-125C6884-D799B962
