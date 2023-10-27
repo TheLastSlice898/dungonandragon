@@ -5476,3 +5476,936 @@ UnknownFunction []
 [2023.10.27-04.20.58:461][556]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ActorFolder_UID_3E4B196D-415042C0-A78517B5-6E352A67
 [2023.10.27-04.20.58:461][556]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC32AD524ADB601_1754119817
 [2023.10.27-04.20.58:484][556]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.10.27-04.25.10:227][537]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.27-04.25.10:234][537]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.27-04.25.10:235][537]LogWorldPartition: Display: GenerateStreaming started...
+[2023.10.27-04.25.10:235][537]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.10.27-04.25.10:235][537]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 306 us)
+[2023.10.27-04.25.10:235][537]LogWorldPartition: Display: GenerateStreaming took 138 us (total: 5 ms)
+[2023.10.27-04.25.10:235][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.27-04.25.10:235][537]PIE: New page: PIE session: ThirdPersonMap (28 Oct 2023, 2:25:10 am)
+[2023.10.27-04.25.10:235][537]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.27-04.25.10:240][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004952s)
+[2023.10.27-04.25.10:240][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004989s)
+[2023.10.27-04.25.10:240][537]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.27-04.25.10:240][537]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.27-04.25.10:241][537]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.10.27-04.25.10:241][537]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.27-04.25.10:241][537]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.27-04.25.10:241][537]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.10.27-04.25.10:242][537]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.10.27-04.25.10:242][537]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 432 ms)
+[2023.10.27-04.25.10:242][537]LogPlayLevel: PIE: World Init took: (0.002235s)
+[2023.10.27-04.25.10:261][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.10.27-04.25.10:263][537]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2023.10.27-04.25.10:263][537]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.27-04.25.10:263][537]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.27-04.25.10:263][537]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.27-04.25.10:263][537]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.27-04.25.10:263][537]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.27-04.25.10:263][537]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.27-04.25.10:263][537]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.27-04.25.10:263][537]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.27-04.25.10:263][537]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.27-04.25.10:263][537]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.27-04.25.10:263][537]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.27-04.25.10:266][537]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.27-04.25.10:297][537]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.10.27-04.25.10:298][537]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.27-04.25.10:298][537]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.27-04.25.10:298][537]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.27-04.25.10:299][537]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2023.10.27-04.25.10:299][537]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2023.10.27-04.25.10:300][537]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2023.10.27-04.25.10:300][537]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2023.10.27-04.25.10:300][537]LogInit: FAudioDevice initialized with ID 35.
+[2023.10.27-04.25.10:300][537]LogAudio: Display: Audio Device (ID: 35) registered with world 'ThirdPersonMap'.
+[2023.10.27-04.25.10:300][537]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2023.10.27-04.25.10:306][537]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.10.27-04.25.10:312][537]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.10.27-15.25.10
+[2023.10.27-04.25.10:312][537]LogWorld: Bringing up level for play took: 0.005711
+[2023.10.27-04.25.10:314][537]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2023.10.27-04.25.10:319][537]PIE: Server logged in
+[2023.10.27-04.25.10:319][537]PIE: Play in editor total start time 0.086 seconds.
+[2023.10.27-04.25.45:125][802]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.27-04.25.45:125][802]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.27-04.25.45:125][802]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.27-04.25.45:126][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.27-04.25.45:126][802]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.10.27-04.25.45:130][802]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.27-04.25.45:135][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.27-04.25.45:155][802]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.27-04.25.45:155][802]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2023.10.27-04.25.45:155][802]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2023.10.27-04.25.45:157][802]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2023.10.27-04.25.45:162][802]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.27-04.25.45:168][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.10.27-04.25.45:203][803]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2023.10.27-04.26.09:691][215]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.27-04.26.09:699][215]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.27-04.26.09:700][215]LogWorldPartition: Display: GenerateStreaming started...
+[2023.10.27-04.26.09:700][215]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.10.27-04.26.09:700][215]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 312 us)
+[2023.10.27-04.26.09:701][215]LogWorldPartition: Display: GenerateStreaming took 156 us (total: 5 ms)
+[2023.10.27-04.26.09:701][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.27-04.26.09:701][215]PIE: New page: PIE session: ThirdPersonMap (28 Oct 2023, 2:26:09 am)
+[2023.10.27-04.26.09:723][215]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.27-04.26.09:728][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005037s)
+[2023.10.27-04.26.09:728][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005083s)
+[2023.10.27-04.26.09:728][215]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.27-04.26.09:728][215]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.27-04.26.09:728][215]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.10.27-04.26.09:729][215]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.27-04.26.09:729][215]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.27-04.26.09:729][215]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.10.27-04.26.09:730][215]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.10.27-04.26.09:730][215]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 433 ms)
+[2023.10.27-04.26.09:730][215]LogPlayLevel: PIE: World Init took: (0.002015s)
+[2023.10.27-04.26.09:751][215]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2023.10.27-04.26.09:753][215]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2023.10.27-04.26.09:753][215]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.27-04.26.09:753][215]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.27-04.26.09:753][215]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.27-04.26.09:753][215]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.27-04.26.09:753][215]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.27-04.26.09:753][215]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.27-04.26.09:753][215]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.27-04.26.09:753][215]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.27-04.26.09:753][215]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.27-04.26.09:753][215]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.27-04.26.09:753][215]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.27-04.26.09:755][215]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.27-04.26.09:799][215]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.10.27-04.26.09:799][215]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.27-04.26.09:799][215]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.27-04.26.09:799][215]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.27-04.26.09:800][215]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2023.10.27-04.26.09:800][215]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2023.10.27-04.26.09:802][215]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2023.10.27-04.26.09:802][215]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2023.10.27-04.26.09:802][215]LogInit: FAudioDevice initialized with ID 36.
+[2023.10.27-04.26.09:802][215]LogAudio: Display: Audio Device (ID: 36) registered with world 'ThirdPersonMap'.
+[2023.10.27-04.26.09:802][215]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2023.10.27-04.26.09:805][215]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.10.27-04.26.09:812][215]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.10.27-15.26.09
+[2023.10.27-04.26.09:812][215]LogWorld: Bringing up level for play took: 0.006506
+[2023.10.27-04.26.09:814][215]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2023.10.27-04.26.09:818][215]PIE: Server logged in
+[2023.10.27-04.26.09:818][215]PIE: Play in editor total start time 0.12 seconds.
+[2023.10.27-04.26.49:361][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.27-04.26.49:361][839]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.27-04.26.49:361][839]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.27-04.26.49:362][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.27-04.26.49:362][839]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.10.27-04.26.49:366][839]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.27-04.26.49:369][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.27-04.26.49:390][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.27-04.26.49:390][839]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2023.10.27-04.26.49:390][839]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.10.27-04.26.49:392][839]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.10.27-04.26.49:401][839]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.10.27-04.26.49:434][840]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2023.10.27-04.26.51:881][ 97]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.27-04.26.51:889][ 97]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.27-04.26.51:890][ 97]LogWorldPartition: Display: GenerateStreaming started...
+[2023.10.27-04.26.51:890][ 97]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.10.27-04.26.51:890][ 97]LogWorldPartition: Display: GetPartitionedActors took 8 us (total: 320 us)
+[2023.10.27-04.26.51:890][ 97]LogWorldPartition: Display: GenerateStreaming took 182 us (total: 6 ms)
+[2023.10.27-04.26.51:891][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.27-04.26.51:891][ 97]PIE: New page: PIE session: ThirdPersonMap (28 Oct 2023, 2:26:51 am)
+[2023.10.27-04.26.51:891][ 97]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.27-04.26.51:897][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006243s)
+[2023.10.27-04.26.51:898][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006285s)
+[2023.10.27-04.26.51:898][ 97]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.27-04.26.51:898][ 97]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.27-04.26.51:898][ 97]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.10.27-04.26.51:898][ 97]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.27-04.26.51:898][ 97]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.27-04.26.51:898][ 97]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.10.27-04.26.51:900][ 97]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.10.27-04.26.51:900][ 97]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 434 ms)
+[2023.10.27-04.26.51:900][ 97]LogPlayLevel: PIE: World Init took: (0.003127s)
+[2023.10.27-04.26.51:919][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.10.27-04.26.51:922][ 97]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2023.10.27-04.26.51:922][ 97]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.27-04.26.51:922][ 97]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.27-04.26.51:922][ 97]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.27-04.26.51:922][ 97]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.27-04.26.51:922][ 97]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.27-04.26.51:922][ 97]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.27-04.26.51:922][ 97]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.27-04.26.51:922][ 97]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.27-04.26.51:923][ 97]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.27-04.26.51:923][ 97]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.27-04.26.51:923][ 97]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.27-04.26.51:925][ 97]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.27-04.26.51:957][ 97]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.10.27-04.26.51:957][ 97]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.27-04.26.51:957][ 97]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.27-04.26.51:957][ 97]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.27-04.26.51:958][ 97]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2023.10.27-04.26.51:958][ 97]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2023.10.27-04.26.51:959][ 97]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2023.10.27-04.26.51:959][ 97]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2023.10.27-04.26.51:959][ 97]LogInit: FAudioDevice initialized with ID 37.
+[2023.10.27-04.26.51:960][ 97]LogAudio: Display: Audio Device (ID: 37) registered with world 'ThirdPersonMap'.
+[2023.10.27-04.26.51:960][ 97]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2023.10.27-04.26.51:963][ 97]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.10.27-04.26.51:968][ 97]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.10.27-15.26.51
+[2023.10.27-04.26.51:969][ 97]LogWorld: Bringing up level for play took: 0.005505
+[2023.10.27-04.26.51:971][ 97]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2023.10.27-04.26.51:975][ 97]PIE: Server logged in
+[2023.10.27-04.26.51:976][ 97]PIE: Play in editor total start time 0.087 seconds.
+[2023.10.27-04.27.10:194][672]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.27-04.27.10:195][672]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.27-04.27.10:195][672]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.27-04.27.10:196][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.27-04.27.10:196][672]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.10.27-04.27.10:199][672]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.27-04.27.10:204][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.27-04.27.10:223][672]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.27-04.27.10:223][672]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2023.10.27-04.27.10:223][672]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.10.27-04.27.10:226][672]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.10.27-04.27.10:236][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.10.27-04.27.10:288][673]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2023.10.27-04.28.21:419][988]LogContentBrowser: Deferred new asset file creation: NewSoundCue
+[2023.10.27-04.28.21:430][988]LogContentBrowser: Creating deferred item: NewSoundCue
+[2023.10.27-04.28.21:440][989]LogContentBrowser: Renaming the item being created (Deferred Item: NewSoundCue).
+[2023.10.27-04.28.36:209][469]LogContentBrowser: Attempting asset rename: NewSoundCue -> SC_Hall1
+[2023.10.27-04.28.36:216][469]LogContentBrowser: End creating deferred item NewSoundCue
+[2023.10.27-04.28.37:787][623]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/ThirdPerson/Maps/_GENERATED/1028560/SC_Hall1.SC_Hall1
+[2023.10.27-04.29.20:692][ 14]LogEditorTransaction: Undo Edit Override Attenuation
+[2023.10.27-04.29.21:379][ 38]LogEditorTransaction: Undo Move Node
+[2023.10.27-04.29.21:812][ 73]LogEditorTransaction: Undo Sound Cue Editor: New Sound Node
+[2023.10.27-04.29.22:239][105]LogEditorTransaction: Undo Clicking on Elements
+[2023.10.27-04.29.27:329][519]LogSlate: Window 'SC_Hall1' being destroyed
+[2023.10.27-04.29.27:338][519]LogSlate: Window 'SC_Hall1' being destroyed
+[2023.10.27-04.29.27:341][519]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.10.27-04.29.27:341][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.27-04.29.57:067][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.10.27-04.29.57:073][ 49]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.041
+[2023.10.27-04.29.57:073][ 49]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/1028560/SC_Hall1] ([1] browsable assets)...
+[2023.10.27-04.29.57:074][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/1028560/SC_Hall1]
+[2023.10.27-04.29.57:075][ 49]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/1028560/SC_Hall1_Auto4
+[2023.10.27-04.29.57:075][ 49]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Saved/SC_Hall1_Auto4D386E133428D166804B4CFB2904863B1.tmp' to 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/1028560/SC_Hall1_Auto4.uasset'
+[2023.10.27-04.29.57:077][ 49]LogFileHelpers: Auto-saving content packages took 0.005
+[2023.10.27-04.35.53:404][507]LogInterchangeEngine: [Pending] Importing
+[2023.10.27-04.35.53:404][507]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/sneep/Downloadswitch-hat.png]
+[2023.10.27-04.35.53:418][508]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.10.27-04.35.53:450][508]LogTexture: Display: Building textures: /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/witch-hat.witch-hat (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2023.10.27-04.35.53:454][508]LogInterchangeEngine: [Pending] Importing
+[2023.10.27-04.35.53:741][508]LogInterchangeEngine: [Success] Import Done
+[2023.10.27-04.35.53:807][509]LogInterchangeEngine: [Success] Import Done
+[2023.10.27-04.36.06:858][674]LogInterchangeEngine: [Pending] Importing
+[2023.10.27-04.36.06:858][674]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/sneep/OneDrive/Desktopsword-26500_1280.png]
+[2023.10.27-04.36.07:040][675]LogInterchangeEngine: Error: {
+	"Type": "/Script/InterchangeCore.InterchangeResultError_Generic",
+	"Properties": [
+		{
+			"Name": "Text",
+			"Value": "NSLOCTEXT(\"InterchangeTextureFactory\", \"UDIMHasNoValidBlock\", \"All blocks were invalid. The texture won\\'t be imported.\")"
+		},
+		{
+			"Name": "SourceAssetName",
+			"Value": ""
+		},
+		{
+			"Name": "DestinationAssetName",
+			"Value": "sword-26500"
+		},
+		{
+			"Name": "AssetType",
+			"Value": "/Script/CoreUObject.Class'/Script/Engine.Texture2D'"
+		},
+		{
+			"Name": "InterchangeKey",
+			"Value": ""
+		}
+	]
+}
+[2023.10.27-04.36.07:040][675]LogInterchangeEngine: Error: {
+	"Type": "/Script/InterchangeCore.InterchangeResultError_Generic",
+	"Properties": [
+		{
+			"Name": "Text",
+			"Value": "NSLOCTEXT(\"InterchangeTextureFactory\", \"InvalidPayload\", \"Unable to retrieve the payload from the source file.\")"
+		},
+		{
+			"Name": "SourceAssetName",
+			"Value": "C:/Users/sneep/OneDrive/Desktop/sword-26500_1280.png"
+		},
+		{
+			"Name": "DestinationAssetName",
+			"Value": "sword-26500"
+		},
+		{
+			"Name": "AssetType",
+			"Value": "/Script/CoreUObject.Class'/Script/Engine.Texture2D'"
+		},
+		{
+			"Name": "InterchangeKey",
+			"Value": ""
+		}
+	]
+}
+[2023.10.27-04.36.07:041][675]LogInterchangeEngine: Error: [Failure] Import Done
+[2023.10.27-04.36.07:056][675]LogInterchangeEngine: Error: [Failure] Import Done
+[2023.10.27-04.36.14:545][ 86]Cmd: TRANSACTION UNDO
+[2023.10.27-04.36.14:545][ 86]LogEditorTransaction: Undo Clicking on Elements
+[2023.10.27-04.36.17:754][304]LogSlate: Window 'Content Browser' being destroyed
+[2023.10.27-04.36.17:782][304]LogSlate: Window 'Content Browser' being destroyed
+[2023.10.27-04.36.19:797][475]LogSlate: Window 'Interchange Results Browser' being destroyed
+[2023.10.27-04.36.22:582][704]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.27-04.36.22:590][704]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.27-04.36.22:592][704]LogWorldPartition: Display: GenerateStreaming started...
+[2023.10.27-04.36.22:592][704]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.10.27-04.36.22:592][704]LogWorldPartition: Display: GetPartitionedActors took 10 us (total: 331 us)
+[2023.10.27-04.36.22:592][704]LogWorldPartition: Display: GenerateStreaming took 215 us (total: 6 ms)
+[2023.10.27-04.36.22:593][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.27-04.36.22:593][704]PIE: New page: PIE session: ThirdPersonMap (28 Oct 2023, 2:36:22 am)
+[2023.10.27-04.36.22:634][704]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.27-04.36.22:641][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007376s)
+[2023.10.27-04.36.22:641][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007474s)
+[2023.10.27-04.36.22:641][704]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.27-04.36.22:641][704]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.27-04.36.22:643][704]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.10.27-04.36.22:643][704]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.27-04.36.22:643][704]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.27-04.36.22:643][704]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.10.27-04.36.22:645][704]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.10.27-04.36.22:645][704]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 437 ms)
+[2023.10.27-04.36.22:645][704]LogPlayLevel: PIE: World Init took: (0.004560s)
+[2023.10.27-04.36.22:674][704]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2023.10.27-04.36.22:680][704]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2023.10.27-04.36.22:680][704]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.27-04.36.22:680][704]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.27-04.36.22:680][704]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.27-04.36.22:680][704]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.27-04.36.22:680][704]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.27-04.36.22:680][704]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.27-04.36.22:680][704]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.27-04.36.22:680][704]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.27-04.36.22:681][704]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.27-04.36.22:681][704]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.27-04.36.22:681][704]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.27-04.36.22:683][704]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.27-04.36.22:749][704]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.10.27-04.36.22:749][704]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.27-04.36.22:749][704]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.27-04.36.22:749][704]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.27-04.36.22:752][704]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2023.10.27-04.36.22:752][704]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2023.10.27-04.36.22:754][704]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2023.10.27-04.36.22:754][704]LogInit: FAudioDevice initialized with ID 38.
+[2023.10.27-04.36.22:754][704]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2023.10.27-04.36.22:754][704]LogAudio: Display: Audio Device (ID: 38) registered with world 'ThirdPersonMap'.
+[2023.10.27-04.36.22:754][704]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2023.10.27-04.36.22:757][704]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.10.27-04.36.22:763][704]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.10.27-15.36.22
+[2023.10.27-04.36.22:764][704]LogWorld: Bringing up level for play took: 0.006840
+[2023.10.27-04.36.22:766][704]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2023.10.27-04.36.22:770][704]PIE: Server logged in
+[2023.10.27-04.36.22:771][704]PIE: Play in editor total start time 0.181 seconds.
+[2023.10.27-04.36.24:725][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.27-04.36.24:725][864]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.27-04.36.24:726][864]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.27-04.36.24:726][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.27-04.36.24:726][864]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.10.27-04.36.24:730][864]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.27-04.36.24:733][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.27-04.36.24:754][864]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.27-04.36.24:754][864]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2023.10.27-04.36.24:754][864]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.10.27-04.36.24:756][864]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.10.27-04.36.24:760][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.27-04.36.24:764][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.10.27-04.36.24:804][865]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2023.10.27-04.36.30:275][326]Cmd: TRANSACTION UNDO
+[2023.10.27-04.36.30:275][326]LogEditorTransaction: Undo Clicking on Elements
+[2023.10.27-04.36.41:541][306]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.10.27-04.36.53:409][306]LogSlate: Window 'Save Content' being destroyed
+[2023.10.27-04.36.53:421][306]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.27-04.36.53:539][306]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/_GENERATED/1028560/SC_Hall1
+[2023.10.27-04.36.53:539][306]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Saved/SC_Hall19CBC733C47F18804FD7E67A766E1B175.tmp' to 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Content/ThirdPerson/Maps/_GENERATED/1028560/SC_Hall1.uasset'
+[2023.10.27-04.36.53:554][306]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/witch-hat
+[2023.10.27-04.36.53:554][306]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Saved/witch-hatE1A15E234A05F5062A9AF980D65D92A3.tmp' to 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Content/ThirdPerson/Maps/_GENERATED/1028560/Door/witch-hat.uasset'
+[2023.10.27-04.36.53:566][306]LogFileHelpers: InternalPromptForCheckoutAndSave took 144 ms (total: 10.2 sec)
+[2023.10.27-04.36.53:566][306]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2023.10.27-04.36.53:567][306]Cmd: MAP LOAD FILE="C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Content/ThirdPerson/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.27-04.36.53:567][306]LightingResults: New page: Lighting Build
+[2023.10.27-04.36.53:567][306]LoadErrors: New page: Loading map: ThirdPersonMap.umap
+[2023.10.27-04.36.53:601][306]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.27-04.36.53:601][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.27-04.36.53:604][306]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.10.27-04.36.53:605][306]MapCheck: New page: Map Check
+[2023.10.27-04.36.53:605][306]LightingResults: New page: Lighting Build
+[2023.10.27-04.36.53:621][306]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.27-04.36.53:628][306]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.10.27-04.36.53:661][306]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2023.10.27-04.36.53:661][306]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.27-04.36.53:661][306]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.27-04.36.53:662][306]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.10.27-04.36.53:662][306]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.10.27-04.36.53:662][306]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.27-04.36.53:662][306]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=1, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.10.27-04.36.53:689][306]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.10.27-04.36.53:690][306]LogWorldPartition: Display: WorldPartition initialize took 27 ms (total: 464 ms)
+[2023.10.27-04.36.53:708][306]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.27-04.36.53:730][306]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.10.27-04.36.53:735][306]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.27-04.36.53:735][306]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.374ms to complete.
+[2023.10.27-04.36.53:735][306]LogFileHelpers: Loading map 'ThirdPersonMap' took 0.169
+[2023.10.27-04.36.53:744][306]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.27-04.36.53:744][306]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/ThirdPerson/Maps/_GENERATED/1028560/SC_Hall1.SC_Hall1
+[2023.10.27-04.36.53:744][306]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/witch-hat.witch-hat
+[2023.10.27-04.36.53:757][307]LogAutomationController: Ignoring very large delta of 12.25 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.10.27-04.36.55:421][435]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.27-04.36.55:426][435]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.27-04.36.55:428][435]LogWorldPartition: Display: GenerateStreaming started...
+[2023.10.27-04.36.55:428][435]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.10.27-04.36.55:428][435]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 337 us)
+[2023.10.27-04.36.55:428][435]LogWorldPartition: Display: GenerateStreaming took 134 us (total: 6 ms)
+[2023.10.27-04.36.55:428][435]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.27-04.36.55:428][435]PIE: New page: PIE session: ThirdPersonMap (28 Oct 2023, 2:36:55 am)
+[2023.10.27-04.36.55:429][435]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.27-04.36.55:433][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004829s)
+[2023.10.27-04.36.55:433][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004861s)
+[2023.10.27-04.36.55:433][435]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.27-04.36.55:433][435]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.27-04.36.55:433][435]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.10.27-04.36.55:434][435]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.27-04.36.55:434][435]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.27-04.36.55:434][435]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.10.27-04.36.55:436][435]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.10.27-04.36.55:436][435]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 465 ms)
+[2023.10.27-04.36.55:436][435]LogPlayLevel: PIE: World Init took: (0.002246s)
+[2023.10.27-04.36.55:455][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.10.27-04.36.55:457][435]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2023.10.27-04.36.55:457][435]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.27-04.36.55:457][435]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.27-04.36.55:457][435]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.27-04.36.55:457][435]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.27-04.36.55:457][435]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.27-04.36.55:457][435]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.27-04.36.55:457][435]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.27-04.36.55:457][435]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.27-04.36.55:458][435]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.27-04.36.55:458][435]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.27-04.36.55:458][435]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.27-04.36.55:459][435]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.27-04.36.55:501][435]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.10.27-04.36.55:501][435]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.27-04.36.55:501][435]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.27-04.36.55:501][435]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.27-04.36.55:502][435]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2023.10.27-04.36.55:502][435]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2023.10.27-04.36.55:504][435]LogInit: FAudioDevice initialized with ID 39.
+[2023.10.27-04.36.55:504][435]LogAudio: Display: Audio Device (ID: 39) registered with world 'ThirdPersonMap'.
+[2023.10.27-04.36.55:504][435]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2023.10.27-04.36.55:504][435]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2023.10.27-04.36.55:504][435]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2023.10.27-04.36.55:507][435]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.10.27-04.36.55:512][435]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.10.27-15.36.55
+[2023.10.27-04.36.55:512][435]LogWorld: Bringing up level for play took: 0.005967
+[2023.10.27-04.36.55:515][435]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2023.10.27-04.36.55:519][435]PIE: Server logged in
+[2023.10.27-04.36.55:520][435]PIE: Play in editor total start time 0.093 seconds.
+[2023.10.27-04.37.00:118][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.27-04.37.00:119][809]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.27-04.37.00:119][809]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.27-04.37.00:120][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.27-04.37.00:120][809]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.10.27-04.37.00:123][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.27-04.37.00:127][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.27-04.37.00:146][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.27-04.37.00:146][809]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2023.10.27-04.37.00:146][809]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.10.27-04.37.00:148][809]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.10.27-04.37.00:157][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.10.27-04.37.00:203][811]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2023.10.27-04.37.19:231][426]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DecalActor
+[2023.10.27-04.37.19:233][426]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DecalActor
+[2023.10.27-04.37.19:235][426]LogActorFactory: Actor Factory spawned Class /Script/Engine.DecalActor as actor: DecalActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.DecalActor_UAID_088FC32AD524AEB601_1958653996
+[2023.10.27-04.37.19:235][426]LogActorFactory: Actor Factory spawned Class /Script/Engine.DecalActor as actor: DecalActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.DecalActor_UAID_088FC32AD524AEB601_1958653996
+[2023.10.27-04.37.33:748][616]LogContentBrowser: Deferred new asset file creation: witch-hat_Mat
+[2023.10.27-04.37.33:763][616]LogContentBrowser: Creating deferred item: witch-hat_Mat
+[2023.10.27-04.37.33:775][617]LogContentBrowser: Renaming the item being created (Deferred Item: witch-hat_Mat).
+[2023.10.27-04.37.35:826][791]LogContentBrowser: Attempting asset rename: witch-hat_Mat -> witch-hat_Mat
+[2023.10.27-04.37.35:843][791]LogContentBrowser: End creating deferred item witch-hat_Mat
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: ================================================
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: Total job queries 4,176, among them cache hits 332 (7.95%)
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: Tracking 3,841 distinct input hashes that result in 2,670 distinct outputs (69.51%)
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: RAM used: 65.37 MiB of 1.60 GiB budget. Usage: 3.99%
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: Shaders Compiled: 3,841
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: Jobs assigned 3,844, completed 3,841 (99.92%)
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: Average time worker was idle: 80.14 s
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: Time job spent in pending queue: average 188.60 s, longest 435.53 s
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: Job execution time: average 9.40 s, max 25.79 s
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: Job life time (pending + execution): average 198.14 s, max 442.09
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 542.01 s
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: Jobs were issued in 686 batches (only local compilation was used), average 5.60 jobs/batch
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: Average processing rate: 7.09 jobs/sec
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: Total thread time: 3,885.32 s
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: Total thread preprocess time: 124.536 s
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: Percentage time preprocessing: 3.21%
+[2023.10.27-04.37.36:677][842]LogShaderCompilers: Display: Effective parallelization: 7.17 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.10.27-04.37.36:678][842]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.27-04.37.36:678][842]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 7.30 sec, max 11.97 sec, min 2.67 sec)
+[2023.10.27-04.37.36:678][842]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 6.61 sec, max 8.28 sec, min 4.86 sec)
+[2023.10.27-04.37.36:678][842]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.76 sec, max 4.34 sec, min 1.75 sec)
+[2023.10.27-04.37.36:678][842]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 2.33 sec, max 2.33 sec, min 2.33 sec)
+[2023.10.27-04.37.36:678][842]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  150 times, average 2.26 sec, max 4.69 sec, min 1.97 sec)
+[2023.10.27-04.37.36:678][842]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.27-04.37.36:678][842]LogShaderCompilers: Display:                                             FDeferredLightPS - 8.74% of total time (compiled  150 times, average 2.26 sec, max 4.69 sec, min 1.97 sec)
+[2023.10.27-04.37.36:678][842]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.59% of total time (compiled   96 times, average 1.86 sec, max 2.60 sec, min 1.40 sec)
+[2023.10.27-04.37.36:678][842]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.22% of total time (compiled  128 times, average 1.28 sec, max 2.18 sec, min 0.81 sec)
+[2023.10.27-04.37.36:678][842]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.15% of total time (compiled  128 times, average 1.26 sec, max 1.64 sec, min 0.96 sec)
+[2023.10.27-04.37.36:678][842]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.02% of total time (compiled   96 times, average 1.63 sec, max 2.20 sec, min 0.85 sec)
+[2023.10.27-04.37.36:678][842]LogShaderCompilers: Display: ================================================
+[2023.10.27-04.37.41:525][223]LogContentBrowser: Attempting asset rename: witch-hat_Mat -> M_WitchHat
+[2023.10.27-04.37.41:561][223]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.27-04.37.42:950][223]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_WitchHat
+[2023.10.27-04.37.42:950][223]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Saved/M_WitchHat227CD33F47DD97BFA84658B7E4065544.tmp' to 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Content/ThirdPerson/Maps/_GENERATED/1028560/Door/M_WitchHat.uasset'
+[2023.10.27-04.37.42:960][223]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.39 sec (total: 11.6 sec)
+[2023.10.27-04.37.42:992][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.10.27-04.37.43:017][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.10.27-04.37.43:040][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.10.27-04.37.43:047][223]AssetCheck: New page: Asset Save: M_WitchHat
+[2023.10.27-04.37.43:047][223]LogContentValidation: Display: Validating /Script/Engine.Material /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_WitchHat.M_WitchHat
+[2023.10.27-04.37.47:747][576]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_WitchHat.M_WitchHat
+[2023.10.27-04.37.47:750][576]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.27-04.37.47:750][576]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.27-04.37.48:122][576]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.27-04.37.48:122][576]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.37.48:122][576]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.37.48:122][576]MaterialEditorStats: Shader Count: 0
+[2023.10.27-04.37.48:130][576]LogViewport: Scene viewport resized to 756x577, mode Windowed.
+[2023.10.27-04.37.48:600][597]MaterialEditorStats: Texture samplers: 1/16
+[2023.10.27-04.37.48:600][597]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.37.48:600][597]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.37.48:600][597]MaterialEditorStats: Shader Count: 1
+[2023.10.27-04.37.48:889][611]MaterialEditorStats: Base pass shader: 229 instructions
+[2023.10.27-04.37.48:890][611]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2023.10.27-04.37.48:890][611]MaterialEditorStats: Texture samplers: 5/16
+[2023.10.27-04.37.48:890][611]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.37.48:890][611]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.37.48:890][611]MaterialEditorStats: Shader Count: 4
+[2023.10.27-04.37.56:807][111]LogSlate: Window 'M_WitchHat' being destroyed
+[2023.10.27-04.37.56:816][111]LogSlate: Window 'M_WitchHat' being destroyed
+[2023.10.27-04.37.56:828][111]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.10.27-04.37.56:828][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.27-04.41.03:874][899]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_WitchHat.M_WitchHat
+[2023.10.27-04.41.03:878][899]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.27-04.41.03:878][899]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.27-04.41.04:117][899]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.27-04.41.04:117][899]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.41.04:117][899]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.41.04:117][899]MaterialEditorStats: Shader Count: 0
+[2023.10.27-04.41.04:127][899]LogViewport: Scene viewport resized to 756x577, mode Windowed.
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: ================================================
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Total job queries 4,206, among them cache hits 340 (8.08%)
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Tracking 3,862 distinct input hashes that result in 2,672 distinct outputs (69.19%)
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: RAM used: 65.84 MiB of 1.60 GiB budget. Usage: 4.02%
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Shaders Compiled: 3,862
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Jobs assigned 3,862, completed 3,862 (100.00%)
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Average time worker was idle: 90.53 s
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Time job spent in pending queue: average 187.72 s, longest 435.53 s
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Job execution time: average 9.35 s, max 25.79 s
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Job life time (pending + execution): average 197.07 s, max 442.09
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 544.32 s
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Jobs were issued in 704 batches (only local compilation was used), average 5.49 jobs/batch
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Average processing rate: 7.10 jobs/sec
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Total thread time: 3,897.262 s
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Total thread preprocess time: 125.044 s
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Percentage time preprocessing: 3.21%
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Effective parallelization: 7.16 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 7.30 sec, max 11.97 sec, min 2.67 sec)
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 6.61 sec, max 8.28 sec, min 4.86 sec)
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.76 sec, max 4.34 sec, min 1.75 sec)
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 2.33 sec, max 2.33 sec, min 2.33 sec)
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  150 times, average 2.26 sec, max 4.69 sec, min 1.97 sec)
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display:                                             FDeferredLightPS - 8.71% of total time (compiled  150 times, average 2.26 sec, max 4.69 sec, min 1.97 sec)
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.58% of total time (compiled   96 times, average 1.86 sec, max 2.60 sec, min 1.40 sec)
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.21% of total time (compiled  128 times, average 1.28 sec, max 2.18 sec, min 0.81 sec)
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.14% of total time (compiled  128 times, average 1.26 sec, max 1.64 sec, min 0.96 sec)
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.00% of total time (compiled   96 times, average 1.63 sec, max 2.20 sec, min 0.85 sec)
+[2023.10.27-04.41.04:217][903]LogShaderCompilers: Display: ================================================
+[2023.10.27-04.41.04:900][933]MaterialEditorStats: Texture samplers: 1/16
+[2023.10.27-04.41.04:900][933]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.41.04:900][933]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.41.04:900][933]MaterialEditorStats: Shader Count: 1
+[2023.10.27-04.41.05:212][948]MaterialEditorStats: Base pass shader: 229 instructions
+[2023.10.27-04.41.05:212][948]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2023.10.27-04.41.05:212][948]MaterialEditorStats: Texture samplers: 5/16
+[2023.10.27-04.41.05:212][948]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.41.05:212][948]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.41.05:212][948]MaterialEditorStats: Shader Count: 4
+[2023.10.27-04.41.05:951][983]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.27-04.41.05:951][983]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.41.05:951][983]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.41.05:951][983]MaterialEditorStats: Shader Count: 0
+[2023.10.27-04.41.06:011][985]MaterialEditorStats: Base pass shader: 229 instructions
+[2023.10.27-04.41.06:011][985]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2023.10.27-04.41.06:011][985]MaterialEditorStats: Texture samplers: 5/16
+[2023.10.27-04.41.06:011][985]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.41.06:011][985]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.41.06:011][985]MaterialEditorStats: Shader Count: 4
+[2023.10.27-04.41.07:353][ 55]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_0: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2023.10.27-04.41.07:360][ 55]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_0: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2023.10.27-04.41.07:363][ 55]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_0: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2023.10.27-04.41.07:372][ 55]MaterialEditorStats: Error: [SM6] Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+[2023.10.27-04.41.20:018][187]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_0: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2023.10.27-04.41.21:840][265]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.27-04.41.21:840][265]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.41.21:840][265]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.41.21:840][265]MaterialEditorStats: Shader Count: 0
+[2023.10.27-04.41.22:383][296]MaterialEditorStats: Texture samplers: 1/16
+[2023.10.27-04.41.22:384][296]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.41.22:384][296]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.41.22:384][296]MaterialEditorStats: Shader Count: 1
+[2023.10.27-04.41.31:036][371]LogMaterialEditor: Applying material M_WitchHat
+[2023.10.27-04.41.31:360][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.10.27-04.41.31:481][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.10.27-04.41.31:494][371]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.27-04.41.31:494][371]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.41.31:494][371]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.41.31:494][371]MaterialEditorStats: Shader Count: 0
+[2023.10.27-04.41.32:008][385]MaterialEditorStats: Texture samplers: 1/16
+[2023.10.27-04.41.32:008][385]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.41.32:008][385]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.41.32:008][385]MaterialEditorStats: Shader Count: 1
+[2023.10.27-04.41.48:337][715]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.27-04.41.48:337][715]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.41.48:337][715]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.41.48:337][715]MaterialEditorStats: Shader Count: 0
+[2023.10.27-04.41.48:891][748]MaterialEditorStats: Texture samplers: 1/16
+[2023.10.27-04.41.48:891][748]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.41.48:891][748]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.41.48:891][748]MaterialEditorStats: Shader Count: 1
+[2023.10.27-04.41.51:733][923]LogMaterialEditor: Applying material M_WitchHat
+[2023.10.27-04.41.51:803][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.10.27-04.41.51:906][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.10.27-04.41.51:918][923]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.27-04.41.51:919][923]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.41.51:919][923]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.41.51:919][923]MaterialEditorStats: Shader Count: 0
+[2023.10.27-04.41.52:395][949]MaterialEditorStats: Texture samplers: 1/16
+[2023.10.27-04.41.52:395][949]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.41.52:395][949]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.41.52:395][949]MaterialEditorStats: Shader Count: 1
+[2023.10.27-04.41.56:908][278]LogActorFactory: Actor Factory attempting to spawn Material /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_WitchHat.M_WitchHat
+[2023.10.27-04.41.56:908][278]LogActorFactory: Actor Factory attempting to spawn Material /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_WitchHat.M_WitchHat
+[2023.10.27-04.41.56:909][278]LogActorFactory: Actor Factory spawned Material /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_WitchHat.M_WitchHat as actor: DecalActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.DecalActor_0
+[2023.10.27-04.41.56:909][278]LogActorFactory: Actor Factory spawned Material /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_WitchHat.M_WitchHat as actor: DecalActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.DecalActor_0
+[2023.10.27-04.41.57:375][309]MaterialEditorStats: Texture samplers: 2/16
+[2023.10.27-04.41.57:375][309]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.41.57:375][309]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.41.57:375][309]MaterialEditorStats: Shader Count: 3
+[2023.10.27-04.42.30:977][985]Cmd: DUPLICATE
+[2023.10.27-04.42.30:977][985]Cmd: ACTOR DUPLICATE
+[2023.10.27-04.43.38:294][175]LogInterchangeEngine: [Pending] Importing
+[2023.10.27-04.43.38:295][175]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/sneep/OneDrive/Desktopsword-26500_1280.png]
+[2023.10.27-04.43.38:464][176]LogInterchangeEngine: Error: {
+	"Type": "/Script/InterchangeCore.InterchangeResultError_Generic",
+	"Properties": [
+		{
+			"Name": "Text",
+			"Value": "NSLOCTEXT(\"InterchangeTextureFactory\", \"UDIMHasNoValidBlock\", \"All blocks were invalid. The texture won\\'t be imported.\")"
+		},
+		{
+			"Name": "SourceAssetName",
+			"Value": ""
+		},
+		{
+			"Name": "DestinationAssetName",
+			"Value": "sword-26500"
+		},
+		{
+			"Name": "AssetType",
+			"Value": "/Script/CoreUObject.Class'/Script/Engine.Texture2D'"
+		},
+		{
+			"Name": "InterchangeKey",
+			"Value": ""
+		}
+	]
+}
+[2023.10.27-04.43.38:466][176]LogInterchangeEngine: Error: {
+	"Type": "/Script/InterchangeCore.InterchangeResultError_Generic",
+	"Properties": [
+		{
+			"Name": "Text",
+			"Value": "NSLOCTEXT(\"InterchangeTextureFactory\", \"InvalidPayload\", \"Unable to retrieve the payload from the source file.\")"
+		},
+		{
+			"Name": "SourceAssetName",
+			"Value": "C:/Users/sneep/OneDrive/Desktop/sword-26500_1280.png"
+		},
+		{
+			"Name": "DestinationAssetName",
+			"Value": "sword-26500"
+		},
+		{
+			"Name": "AssetType",
+			"Value": "/Script/CoreUObject.Class'/Script/Engine.Texture2D'"
+		},
+		{
+			"Name": "InterchangeKey",
+			"Value": ""
+		}
+	]
+}
+[2023.10.27-04.43.38:466][176]LogInterchangeEngine: Error: [Failure] Import Done
+[2023.10.27-04.43.38:475][176]LogInterchangeEngine: Error: [Failure] Import Done
+[2023.10.27-04.43.45:403][508]LogSlate: Window 'Content Browser' being destroyed
+[2023.10.27-04.43.45:428][508]LogSlate: Window 'Content Browser' being destroyed
+[2023.10.27-04.43.52:072][ 32]LogSlate: Window 'Interchange Results Browser' being destroyed
+[2023.10.27-04.44.20:708][590]LogInterchangeEngine: [Pending] Importing
+[2023.10.27-04.44.20:708][590]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/sneep/Downloadssword-26500_640.png]
+[2023.10.27-04.44.20:728][591]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.10.27-04.44.20:753][591]LogTexture: Display: Building textures: /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/sword-26500_640.sword-26500_640 (BGRA8, 589x640 x1x1x1) (Required Memory Estimate: 11.08707 MB), EncodeSpeed: Fast
+[2023.10.27-04.44.20:760][591]LogInterchangeEngine: [Success] Import Done
+[2023.10.27-04.44.20:766][591]LogInterchangeEngine: [Success] Import Done
+[2023.10.27-04.44.32:543][299]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.10.27-04.44.34:234][299]LogSlate: Window 'Delete Assets' being destroyed
+[2023.10.27-04.44.34:269][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.10.27-04.44.34:293][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.10.27-04.44.34:314][299]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.10.27-04.44.55:454][457]LogInterchangeEngine: [Pending] Importing
+[2023.10.27-04.44.55:454][457]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/sneep/Downloadssword-26500_1280.png]
+[2023.10.27-04.44.55:475][458]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.10.27-04.44.55:502][458]LogInterchangeEngine: [Pending] Importing
+[2023.10.27-04.44.55:785][458]LogInterchangeEngine: Error: [Failure] Import Done
+[2023.10.27-04.44.55:864][459]LogInterchangeEngine: Error: [Failure] Import Done
+[2023.10.27-04.45.30:817][317]LogInterchangeEngine: [Pending] Importing
+[2023.10.27-04.45.30:817][317]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/sneep/Downloadssword-26500_640 (1).png]
+[2023.10.27-04.45.30:825][317]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.10.27-04.45.30:827][317]LogAutomationController: Ignoring very large delta of 6.11 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.10.27-04.45.30:831][318]LogTexture: Display: Building textures: /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/sword-26500_640__1_.sword-26500_640__1_ (BGRA8, 589x640 x1x1x1) (Required Memory Estimate: 11.08707 MB), EncodeSpeed: Fast
+[2023.10.27-04.45.30:860][318]LogInterchangeEngine: [Success] Import Done
+[2023.10.27-04.45.30:889][318]LogInterchangeEngine: [Success] Import Done
+[2023.10.27-04.45.40:045][973]LogContentBrowser: Deferred new asset file creation: sword-26500_640__1__Mat
+[2023.10.27-04.45.40:056][973]LogContentBrowser: Creating deferred item: sword-26500_640__1__Mat
+[2023.10.27-04.45.40:071][974]LogContentBrowser: Renaming the item being created (Deferred Item: sword-26500_640__1__Mat).
+[2023.10.27-04.45.45:225][397]LogContentBrowser: Attempting asset rename: sword-26500_640__1__Mat -> M_Melee
+[2023.10.27-04.45.45:247][397]LogContentBrowser: End creating deferred item sword-26500_640__1__Mat
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: ================================================
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Total job queries 4,256, among them cache hits 377 (8.86%)
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Tracking 3,876 distinct input hashes that result in 2,675 distinct outputs (69.01%)
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: RAM used: 66.10 MiB of 1.60 GiB budget. Usage: 4.03%
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Shaders Compiled: 3,876
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Jobs assigned 3,879, completed 3,876 (99.92%)
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Average time worker was idle: 91.03 s
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Time job spent in pending queue: average 186.90 s, longest 435.53 s
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Job execution time: average 9.32 s, max 25.79 s
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Job life time (pending + execution): average 196.36 s, max 442.09
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 548.82 s
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Jobs were issued in 721 batches (only local compilation was used), average 5.38 jobs/batch
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Average processing rate: 7.06 jobs/sec
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Total thread time: 3,903.474 s
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Total thread preprocess time: 125.328 s
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Percentage time preprocessing: 3.21%
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Effective parallelization: 7.11 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 7.30 sec, max 11.97 sec, min 2.67 sec)
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 6.61 sec, max 8.28 sec, min 4.86 sec)
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.76 sec, max 4.34 sec, min 1.75 sec)
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 2.33 sec, max 2.33 sec, min 2.33 sec)
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  150 times, average 2.26 sec, max 4.69 sec, min 1.97 sec)
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display:                                             FDeferredLightPS - 8.70% of total time (compiled  150 times, average 2.26 sec, max 4.69 sec, min 1.97 sec)
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.57% of total time (compiled   96 times, average 1.86 sec, max 2.60 sec, min 1.40 sec)
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.20% of total time (compiled  128 times, average 1.28 sec, max 2.18 sec, min 0.81 sec)
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.14% of total time (compiled  128 times, average 1.26 sec, max 1.64 sec, min 0.96 sec)
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.00% of total time (compiled   96 times, average 1.63 sec, max 2.20 sec, min 0.85 sec)
+[2023.10.27-04.45.45:911][431]LogShaderCompilers: Display: ================================================
+[2023.10.27-04.45.53:341][995]LogContentBrowser: Attempting asset rename: M_WitchHat -> M_Magic
+[2023.10.27-04.45.53:365][995]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.27-04.45.55:347][995]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_Magic
+[2023.10.27-04.45.55:347][995]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Saved/M_MagicB7EC29944189199F9C2022BD320F1483.tmp' to 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Content/ThirdPerson/Maps/_GENERATED/1028560/Door/M_Magic.uasset'
+[2023.10.27-04.45.55:361][995]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.99 sec (total: 13.6 sec)
+[2023.10.27-04.45.55:391][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.10.27-04.45.55:412][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.10.27-04.45.55:433][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.10.27-04.45.55:440][995]AssetCheck: New page: Asset Save: M_Magic
+[2023.10.27-04.45.55:440][995]LogContentValidation: Display: Validating /Script/Engine.Material /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_Magic.M_Magic
+[2023.10.27-04.45.55:441][995]MaterialEditorStats: Base pass shader: 198 instructions
+[2023.10.27-04.45.55:442][995]MaterialEditorStats: Base pass vertex shader: 286 instructions
+[2023.10.27-04.45.55:442][995]MaterialEditorStats: Texture samplers: 3/16
+[2023.10.27-04.45.55:442][995]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.45.55:442][995]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.45.55:442][995]MaterialEditorStats: Shader Count: 23
+[2023.10.27-04.45.55:452][996]LogAutomationController: Ignoring very large delta of 2.12 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.10.27-04.46.17:747][503]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_Melee.M_Melee
+[2023.10.27-04.46.17:751][503]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.27-04.46.17:752][503]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.27-04.46.17:858][503]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.27-04.46.17:858][503]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.46.17:858][503]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.46.17:858][503]MaterialEditorStats: Shader Count: 0
+[2023.10.27-04.46.17:867][503]LogViewport: Scene viewport resized to 756x583, mode Windowed.
+[2023.10.27-04.46.17:900][504]LogViewport: Scene viewport resized to 756x577, mode Windowed.
+[2023.10.27-04.46.18:662][538]MaterialEditorStats: Texture samplers: 1/16
+[2023.10.27-04.46.18:662][538]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.46.18:662][538]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.46.18:662][538]MaterialEditorStats: Shader Count: 1
+[2023.10.27-04.46.18:872][547]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2023.10.27-04.46.18:872][547]MaterialEditorStats: Texture samplers: 1/16
+[2023.10.27-04.46.18:872][547]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.46.18:872][547]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.46.18:872][547]MaterialEditorStats: Shader Count: 3
+[2023.10.27-04.46.18:960][553]MaterialEditorStats: Base pass shader: 229 instructions
+[2023.10.27-04.46.18:960][553]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2023.10.27-04.46.18:960][553]MaterialEditorStats: Texture samplers: 5/16
+[2023.10.27-04.46.18:960][553]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.46.18:960][553]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.46.18:960][553]MaterialEditorStats: Shader Count: 4
+[2023.10.27-04.46.20:626][654]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.27-04.46.20:626][654]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.46.20:626][654]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.46.20:626][654]MaterialEditorStats: Shader Count: 0
+[2023.10.27-04.46.20:679][656]MaterialEditorStats: Base pass shader: 229 instructions
+[2023.10.27-04.46.20:680][656]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2023.10.27-04.46.20:680][656]MaterialEditorStats: Texture samplers: 5/16
+[2023.10.27-04.46.20:680][656]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.46.20:680][656]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.46.20:680][656]MaterialEditorStats: Shader Count: 4
+[2023.10.27-04.46.22:569][764]LogMaterial: Warning: [AssetLog] /Engine/Transient.M_Melee: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2023.10.27-04.46.22:577][764]LogMaterial: Warning: [AssetLog] /Engine/Transient.M_Melee: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2023.10.27-04.46.22:580][764]LogMaterial: Warning: [AssetLog] /Engine/Transient.M_Melee: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2023.10.27-04.46.22:590][764]MaterialEditorStats: Error: [SM6] Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+[2023.10.27-04.46.23:371][811]LogMaterial: Warning: [AssetLog] /Engine/Transient.M_Melee: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2023.10.27-04.46.24:533][875]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.27-04.46.24:533][875]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.46.24:533][875]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.46.24:533][875]MaterialEditorStats: Shader Count: 0
+[2023.10.27-04.46.25:029][903]MaterialEditorStats: Texture samplers: 1/16
+[2023.10.27-04.46.25:029][903]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.46.25:029][903]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.46.25:029][903]MaterialEditorStats: Shader Count: 1
+[2023.10.27-04.46.25:799][950]LogMaterialEditor: Applying material M_Melee
+[2023.10.27-04.46.25:873][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.10.27-04.46.25:983][950]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.10.27-04.46.26:000][950]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.27-04.46.26:000][950]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.46.26:000][950]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.46.26:000][950]MaterialEditorStats: Shader Count: 0
+[2023.10.27-04.46.26:552][980]MaterialEditorStats: Texture samplers: 1/16
+[2023.10.27-04.46.26:552][980]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.46.26:552][980]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.46.26:552][980]MaterialEditorStats: Shader Count: 1
+[2023.10.27-04.46.30:582][217]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.27-04.46.30:582][217]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.46.30:582][217]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.46.30:582][217]MaterialEditorStats: Shader Count: 0
+[2023.10.27-04.46.31:057][243]MaterialEditorStats: Texture samplers: 1/16
+[2023.10.27-04.46.31:057][243]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.46.31:057][243]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.46.31:057][243]MaterialEditorStats: Shader Count: 1
+[2023.10.27-04.46.32:211][314]LogMaterialEditor: Applying material M_Melee
+[2023.10.27-04.46.32:281][314]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.10.27-04.46.32:391][314]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.10.27-04.46.32:407][314]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.27-04.46.32:407][314]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.46.32:407][314]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.46.32:407][314]MaterialEditorStats: Shader Count: 0
+[2023.10.27-04.46.32:888][340]MaterialEditorStats: Texture samplers: 1/16
+[2023.10.27-04.46.32:888][340]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.27-04.46.32:888][340]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.27-04.46.32:888][340]MaterialEditorStats: Shader Count: 1
+[2023.10.27-04.46.33:819][395]LogSlate: Window 'M_Melee' being destroyed
+[2023.10.27-04.46.33:830][395]LogSlate: Window 'M_Melee' being destroyed
+[2023.10.27-04.46.33:871][395]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.10.27-04.46.33:871][395]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.27-04.46.33:896][395]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2023.10.27-04.46.33:896][395]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.27-04.46.37:225][647]LogActorFactory: Actor Factory attempting to spawn Material /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_Melee.M_Melee
+[2023.10.27-04.46.37:225][647]LogActorFactory: Actor Factory attempting to spawn Material /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_Melee.M_Melee
+[2023.10.27-04.46.37:225][647]LogActorFactory: Actor Factory spawned Material /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_Melee.M_Melee as actor: DecalActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.DecalActor_1
+[2023.10.27-04.46.37:225][647]LogActorFactory: Actor Factory spawned Material /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_Melee.M_Melee as actor: DecalActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.DecalActor_1
+[2023.10.27-04.47.09:453][314]Cmd: DUPLICATE
+[2023.10.27-04.47.09:453][314]Cmd: ACTOR DUPLICATE
+[2023.10.27-04.49.02:758][605]Cmd: DUPLICATE
+[2023.10.27-04.49.02:758][605]Cmd: ACTOR DUPLICATE
+[2023.10.27-04.50.38:050][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.10.27-04.50.38:059][345]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.27-04.50.38:163][345]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/1R/ETBNE8WBILG2R90NYZNNOL
+[2023.10.27-04.50.38:163][345]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Saved/ETBNE8WBILG2R90NYZNNOL8B3B9319475424B43FA7DB9F6A3BA870.tmp' to 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/1R/ETBNE8WBILG2R90NYZNNOL.uasset'
+[2023.10.27-04.50.38:167][345]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/81/1XDO5R6AQFNMSSID6N7LC8
+[2023.10.27-04.50.38:167][345]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Saved/1XDO5R6AQFNMSSID6N7LC84D2983BC4E895169F706B19096ACAA63.tmp' to 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/81/1XDO5R6AQFNMSSID6N7LC8.uasset'
+[2023.10.27-04.50.38:170][345]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/XT/FUZQTVU4Z422AMHRZ7SR27
+[2023.10.27-04.50.38:170][345]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Saved/FUZQTVU4Z422AMHRZ7SR27FBFE5AF5440AF0CD659F68AED6337D3F.tmp' to 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/XT/FUZQTVU4Z422AMHRZ7SR27.uasset'
+[2023.10.27-04.50.38:173][345]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/SV/WK15ZWRZCI3CQVCFCPOBYP
+[2023.10.27-04.50.38:173][345]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Saved/WK15ZWRZCI3CQVCFCPOBYP30E3ED4C462DA7B6C7F5E498EE6DC6C3.tmp' to 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/SV/WK15ZWRZCI3CQVCFCPOBYP.uasset'
+[2023.10.27-04.50.38:185][345]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/sword-26500_640__1_
+[2023.10.27-04.50.38:185][345]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Saved/sword-26500_640__1_1C6DBF0D4DCAE5CB57E709A4C1486357.tmp' to 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Content/ThirdPerson/Maps/_GENERATED/1028560/Door/sword-26500_640__1_.uasset'
+[2023.10.27-04.50.40:214][345]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.10.27-04.50.40:222][345]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.002876s (0.013962s overbudget)
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: ================================================
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Total job queries 4,345, among them cache hits 411 (9.46%)
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Tracking 3,934 distinct input hashes that result in 2,688 distinct outputs (68.33%)
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: RAM used: 67.73 MiB of 1.60 GiB budget. Usage: 4.13%
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Shaders Compiled: 3,934
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Jobs assigned 3,934, completed 3,934 (100.00%)
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Average time worker was idle: 90.03 s
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Time job spent in pending queue: average 184.29 s, longest 435.53 s
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Job execution time: average 9.19 s, max 25.79 s
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Job life time (pending + execution): average 193.48 s, max 442.09
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 556.66 s
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Jobs were issued in 776 batches (only local compilation was used), average 5.07 jobs/batch
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Average processing rate: 7.07 jobs/sec
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Total thread time: 3,934.216 s
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Total thread preprocess time: 126.501 s
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Percentage time preprocessing: 3.22%
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Effective parallelization: 7.07 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 7.30 sec, max 11.97 sec, min 2.67 sec)
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 6.61 sec, max 8.28 sec, min 4.86 sec)
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.76 sec, max 4.34 sec, min 1.75 sec)
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 2.33 sec, max 2.33 sec, min 2.33 sec)
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  150 times, average 2.26 sec, max 4.69 sec, min 1.97 sec)
+[2023.10.27-04.50.40:226][345]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.27-04.50.40:227][345]LogShaderCompilers: Display:                                             FDeferredLightPS - 8.63% of total time (compiled  150 times, average 2.26 sec, max 4.69 sec, min 1.97 sec)
+[2023.10.27-04.50.40:227][345]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.54% of total time (compiled   96 times, average 1.86 sec, max 2.60 sec, min 1.40 sec)
+[2023.10.27-04.50.40:227][345]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.17% of total time (compiled  128 times, average 1.28 sec, max 2.18 sec, min 0.81 sec)
+[2023.10.27-04.50.40:227][345]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.10% of total time (compiled  128 times, average 1.26 sec, max 1.64 sec, min 0.96 sec)
+[2023.10.27-04.50.40:227][345]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 3.97% of total time (compiled   96 times, average 1.63 sec, max 2.20 sec, min 0.85 sec)
+[2023.10.27-04.50.40:227][345]LogShaderCompilers: Display: ================================================
+[2023.10.27-04.50.40:259][345]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_Melee
+[2023.10.27-04.50.40:259][345]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Saved/M_Melee90D27FF8436C94658657B78E922B264D.tmp' to 'C:/Users/sneep/OneDrive/Desktop/dungeonanddragon/dungonandragon/dungonandragon/Content/ThirdPerson/Maps/_GENERATED/1028560/Door/M_Melee.uasset'
+[2023.10.27-04.50.40:285][345]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.22 sec (total: 15.8 sec)
+[2023.10.27-04.50.40:293][345]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.27-04.50.40:293][345]LogContentValidation: Display: Validating /Script/Engine.DecalActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.DecalActor_UAID_088FC32AD524AFB601_1588440175
+[2023.10.27-04.50.40:293][345]LogContentValidation: Display: Validating /Script/Engine.DecalActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.DecalActor_UAID_088FC32AD524AFB601_1475134174
+[2023.10.27-04.50.40:293][345]LogContentValidation: Display: Validating /Script/Engine.Material /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/M_Melee.M_Melee
+[2023.10.27-04.50.40:293][345]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Maps/_GENERATED/1028560/Door/sword-26500_640__1_.sword-26500_640__1_
+[2023.10.27-04.50.40:293][345]LogContentValidation: Display: Validating /Script/Engine.DecalActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.DecalActor_UAID_088FC32AD524AFB601_1196658173
+[2023.10.27-04.50.40:293][345]LogContentValidation: Display: Validating /Script/Engine.DecalActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.DecalActor_UAID_088FC32AD524AEB601_1958653996
+[2023.10.27-04.50.40:298][346]LogAutomationController: Ignoring very large delta of 2.30 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
